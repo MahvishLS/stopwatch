@@ -1,0 +1,33 @@
+.control-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-pause {
+    background-color: #66BB6A; 
+}
+
+.start-pause.running {
+    background-color: #FF6666; 
+}
+
+.split {
+    background-color: #FFA500; 
+}
+
+.reset {
+    background-color: #CCCCCC; 
+    color: black;
+}

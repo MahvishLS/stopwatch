@@ -1,0 +1,28 @@
+.splits-container {
+    margin-top: 50px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.split-item {
+    display: flex;
+    justify-content: row;
+    gap: 30px;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.split-number {
+    color: #666; 
+    width: 70px;
+}
+
+.split-time {
+    color: #FFA500;
+    margin-right: 50px; 
+}
+
+.split-difference{
+    font-weight: 150;
+    color: #555;
+}
