@@ -1,4 +1,3 @@
-// src/components/Stopwatch.jsx
 import React, { useState, useEffect } from 'react';
 import Timer from './Timer';
 import ControlButtons from './ControlButtons';
